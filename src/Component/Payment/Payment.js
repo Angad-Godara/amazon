@@ -26,7 +26,7 @@ function Payment() {
     useEffect(() => {
         setProgress(10);
         const getClientSecret = async () => {
-            const url = "https://famous-sheath-dress-newt.cyclic.app/processing";
+            const url = "https://amazon-clone-v1-backend.onrender.com";
             var res = await fetch(url, {
                 method: 'POST',
                 headers: { 'Content-type': 'application/json' },
